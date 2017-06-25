@@ -1,0 +1,181 @@
+.blank100{
+	height: 100px;
+}
+.blank50{
+	height: 50px;
+}
+.blank80{
+	height: 80px;
+}
+.blank10{
+	height: 10px;
+}
+.text-white {
+    color: #ffffff;
+}
+
+#shared_layout_toper a.signup {
+	padding: 2px 20px 2px 20px;
+    color: #fff;
+    background-color: rgba(218,72,102,.75);
+}
+#shared_layout_toper a.signin {
+	padding: 2px 30px 2px 30px;
+    color: #fff;
+    background-color: #C0C0C0
+}
+
+#layout_header_collapse .nav .active a{
+	background: #555;
+	width: 80px;
+	text-align: center;
+}
+#shared_layout_toper {
+    padding: 5px 0;
+    line-height: 22px;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #888;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #e7e7e7;
+}
+#shared_layout_header {
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+    background-color: #333;
+    
+}
+#layout_header_collapse a{
+	color: #fff;
+}
+
+#shared_block_notice {
+    padding: 15px 0;
+    color: #d9d9d9;
+    line-height: 25px;
+    background-color: #333;
+}
+
+#shared_block_notice a {
+    display: block;
+    max-width: 185px;
+    margin: 10px auto;
+    padding: 5px 0;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    background-color: rgba(255,211,0,.75);
+}
+#shared_block_news {
+    padding: 0 10px;
+    background-color: #222;
+    line-height: 45px;
+    height: 45px;
+    overflow: hidden;
+}
+#shared_block_news a {
+	/*灰色*/
+    color: gray;
+    text-decoration: none;
+}
+.container h2.btitle {
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 36px;
+    color: #00a080;
+    font-weight: 100;
+}
+
+#home_studytime img.img-responsive {
+    display: inline-block;
+
+   
+}
+
+#home_studytime .time-trend {
+    position: relative;
+    z-index: 2;
+    padding: 40px 50px;
+    color: #fff;
+    background-color: #00a080;
+}
+#home_studytime .time-trend h4 {
+    color: #f3f3f3;
+    margin-bottom: -20px;
+}
+/*背景*/
+.ptitle{
+	background: url(../img/bg.jpg);
+}
+#home_studytime .ptitle {
+    padding: 200px 0 50px;
+    /*背景图向上增加150px*/
+    margin-top: -150px;
+    /*背景上下居中*/
+    background-position: center center;
+    /*设置背景不平铺*/
+    background-repeat: no-repeat;
+    /*background-size是css3中新增的属性，background-size的cover特定值会保持图像本身的宽高比例，将图片缩放到正好完全覆盖定义背景的区域。*/
+    background-size: cover;
+}
+
+
+.container .row .zi{
+	font-size: 36px;
+    color: #00a080;
+    font-weight: 100;
+}
+
+.container .row .zheng{
+	font-size: 14px;
+    color: #666666;
+    font-weight: 100;
+}
+/*.container .row .a{
+	min-height: 350px;
+	background: url(../img/oleg.png)no-repeat;
+}
+.container .row .b{
+	min-height: 350px;
+	background: url(../img/oksana.png)no-repeat;
+}
+.container .row .c{
+	min-height: 200px;
+	background: url(../img/ewelina.png)no-repeat;
+}
+.container .row .d{
+	min-height: 200px;
+	background: url(../img/juraj.png)no-repeat;
+}*/
+
+
+.container .tmore,.lksvideo {
+    position: relative;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px grey;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid 5px #f6f792;
+}
+.container .tmore {
+    display: block;
+    min-height: 200px;
+    line-height: 30px;
+    padding-top: 45px;
+    color: #fff;
+    background-color: #eb7085;
+    filter: alpha(opacity=75);
+    -moz-opacity: .75;
+    opacity: .75;
+    
+}
+.container .row .tname {
+	
+	color: #fff;
+} 
+
